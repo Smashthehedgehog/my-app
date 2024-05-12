@@ -1,0 +1,134 @@
+
+
+/* -------------------------------------------------------------
+---------------------- Imported Fonts --------------------------
+----------------------------------------------------------------*/
+@font-face {
+  font-family: 'Quill Sword';
+  src: url('../fonts/quill_sword_fonts/quillsword.ttf') format('truetype'); /* Adjust the path and format as per your font file */
+}
+
+@font-face {
+  font-family: 'Quill Sword Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordital.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Bold';
+  src: url('../fonts/quill_sword_fonts/quillswordbold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Bold Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordboldital.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Bold Condensed';
+  src: url('../fonts/quill_sword_fonts/quillswordcond.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Bold Condensed Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordcondital.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Expand';
+  src: url('../fonts/quill_sword_fonts/quillswordexpand.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Expand Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordexpandital.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Light';
+  src: url('../fonts/quill_sword_fonts/quillswordlight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Light Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordlightital.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Outline';
+  src: url('../fonts/quill_sword_fonts/quillswordout.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quill Sword Outline Italic';
+  src: url('../fonts/quill_sword_fonts/quillswordoutital.ttf') format('truetype');
+}
+
+/* -------------------------------------------------------------
+----------------------- Menu Bar Styles ------------------------
+----------------------------------------------------------------*/
+
+.App-logo {
+  height: 10rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-sidebar {
+  font-size: calc(15px + 2vmin);
+  background-color: #252525;
+  color: #fff;
+  width: 20rem;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* -------------------------------------------------------------
+----------------------- Content Styles -------------------------
+----------------------------------------------------------------*/
+
+.App-content {
+  flex: 1;
+  background-color: #ffffff;
+  /* Other content styles */
+}
+
+.header-container {
+  display: flex;
+  background-image: url("/pictures/michael-ani-header.JPEG");
+  background-size: cover;
+  background-position: 0 20%;
+  height: 100vh;
+  align-items: center;
+  padding-left: 1rem;
+  color: #28b61b;
+  -webkit-text-stroke-color: #252525;
+}
+
+.topic-container {
+  padding-left: 1rem;
+}
+
+.topic-header {
+  padding: 25px 0px;
+  color: #3c4f37;
+  width: fit-content;
+}
+
+.topic-header-line {
+  background-color: #28b61b;
+  width: auto;
+  height: 2px;
+}
