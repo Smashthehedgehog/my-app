@@ -1,5 +1,10 @@
 
 
+.sidebar-layout {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
 /* -------------------------------------------------------------
 ---------------------- Imported Fonts --------------------------
 ----------------------------------------------------------------*/
@@ -64,36 +69,52 @@
 }
 
 /* -------------------------------------------------------------
+------------------------ Color Styles --------------------------
+----------------------------------------------------------------*/
+
+.sonic-beige {
+  background-color: #ffd78f;
+}
+
+.sonic-blue {
+  background-color: #3061e3;
+}
+
+.sonic-red {
+  background-color: #da2528;
+}
+
+.sonic-blue-text {
+  color: #3061e3;
+}
+
+.sonic-grey-text {
+  color: #252525;
+}
+
+/* -------------------------------------------------------------
 ----------------------- Menu Bar Styles ------------------------
 ----------------------------------------------------------------*/
 
-.App-logo {
-  height: 10rem;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-sidebar {
-  font-size: calc(15px + 2vmin);
-  background-color: #252525;
-  color: #fff;
-  width: 20rem;
+  width: 15rem;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.App-sidebar-stuff {
+  border-right: 1px solid #505050;
+  height: 100%;
+}
+
+.App-sidebar-horizontal-line {
+  width: 90%;
+  height: 1px;
+  background-color: #505050;
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 /* -------------------------------------------------------------
 ----------------------- Content Styles -------------------------
@@ -101,34 +122,19 @@
 
 .App-content {
   flex: 1;
-  background-color: #ffffff;
   /* Other content styles */
 }
 
+.App-content-stuff {
+  padding-left: 1rem;
+}
+
 .header-container {
-  display: flex;
-  background-image: url("/pictures/michael-ani-header.JPEG");
-  background-size: cover;
-  background-position: 0 20%;
   height: 100vh;
-  align-items: center;
-  padding-left: 1rem;
-  color: #28b61b;
-  -webkit-text-stroke-color: #252525;
 }
 
-.topic-container {
-  padding-left: 1rem;
-}
-
-.topic-header {
-  padding: 25px 0px;
-  color: #3c4f37;
-  width: fit-content;
-}
-
-.topic-header-line {
-  background-color: #28b61b;
-  width: auto;
-  height: 2px;
+.topic-line {
+  max-width: 10rem;
+  height: 3px;
+  margin-bottom: 1rem;
 }
