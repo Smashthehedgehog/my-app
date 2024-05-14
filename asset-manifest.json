@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.4432d8e8.css",
-    "main.js": "/my-app/static/js/main.f043ee95.js",
+    "main.css": "/my-app/static/css/main.571bcfd4.css",
+    "main.js": "/my-app/static/js/main.d743cbbb.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/michael_about.jpg": "/my-app/static/media/michael_about.2f473807dd8a205e97cd.jpg",
     "static/media/quillswordoutital.ttf": "/my-app/static/media/quillswordoutital.2fa8f156bb1a5e3112cd.ttf",
     "static/media/quillswordout.ttf": "/my-app/static/media/quillswordout.67acb8caafb04f9c8757.ttf",
     "static/media/SimplyCricket-VF.ttf": "/my-app/static/media/SimplyCricket-VF.4d509c43d8268c10ba75.ttf",
@@ -16,14 +17,13 @@
     "static/media/quillswordexpand.ttf": "/my-app/static/media/quillswordexpand.1539f8d66c1122a987ca.ttf",
     "static/media/quillsword.ttf": "/my-app/static/media/quillsword.39c5b6b9f8f6d9829379.ttf",
     "static/media/quillswordcond.ttf": "/my-app/static/media/quillswordcond.4ecd9a603105c8e35066.ttf",
-    "static/media/logo.svg": "/my-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-app/index.html",
-    "main.4432d8e8.css.map": "/my-app/static/css/main.4432d8e8.css.map",
-    "main.f043ee95.js.map": "/my-app/static/js/main.f043ee95.js.map",
+    "main.571bcfd4.css.map": "/my-app/static/css/main.571bcfd4.css.map",
+    "main.d743cbbb.js.map": "/my-app/static/js/main.d743cbbb.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4432d8e8.css",
-    "static/js/main.f043ee95.js"
+    "static/css/main.571bcfd4.css",
+    "static/js/main.d743cbbb.js"
   ]
 }
