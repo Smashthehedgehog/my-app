@@ -175,6 +175,36 @@ function App() {
               <div className='sonic-card mb-4'>
                 <div className='row'>
                   <div className='col-2'>
+                    <svg fill="#000000" width="100%" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M218.82812,37.17188A3.99843,3.99843,0,0,0,216,36h-.0127l-63.79882.20117a4.00014,4.00014,0,0,0-3.07129,1.45215L75.919,126.26172l-11.4336-11.4336a12.0157,12.0157,0,0,0-16.9707,0L34.8291,127.51465a11.998,11.998,0,0,0,0,16.9707l20.88672,20.88721a4.00445,4.00445,0,0,1,0,5.65674L25.77441,200.9707a12.01393,12.01393,0,0,0,0,16.97071l12.28516,12.28418a11.99918,11.99918,0,0,0,16.96973,0l29.9414-29.94141a3.99971,3.99971,0,0,1,5.65723,0l20.88672,20.8877a12.0157,12.0157,0,0,0,16.9707,0l12.68555-12.68653a11.998,11.998,0,0,0,0-16.9707l-11.43311-11.43311,88.60889-73.19873a4.001,4.001,0,0,0,1.45215-3.07129L220,40.0127A3.9979,3.9979,0,0,0,218.82812,37.17188ZM136.68652,200a3.97264,3.97264,0,0,1-1.17187,2.82812L122.8291,215.51465a4.00621,4.00621,0,0,1-5.6582,0L96.28418,194.62744a11.998,11.998,0,0,0-16.96973,0l-29.9414,29.94092a3.99974,3.99974,0,0,1-5.65723,0L31.43066,212.28418a4.00445,4.00445,0,0,1,0-5.65674l29.94141-29.94092a12.01392,12.01392,0,0,0,0-16.9707l-20.88672-20.8877a3.99854,3.99854,0,0,1,0-5.65624L53.1709,120.48535a4.00681,4.00681,0,0,1,5.6582,0l76.68555,76.68653A3.97264,3.97264,0,0,1,136.68652,200Zm75.11817-98.08984-87.74951,72.48877L105.65662,156l57.1715-57.17188a3.99957,3.99957,0,1,0-5.65624-5.65624l-57.17176,57.17138L81.60156,131.94434l72.48828-87.749,57.89746-.18261Z"/>
+                    </svg>
+                  </div>
+                  <div className='col-md-8 col-7'>
+                    <div className='d-flex flex-column'>
+                      <div className='headline-3-large'>Dungeon Crawler</div>
+                      <p className='body-1-large'>Learned how to create an application in Andriod Studio and worked with a team to create a dynamic application. In it, you get to choose
+                       your character, create your own name, choose your difficulty, and navigate through a dungeon with enemies to get to the finish. We also implemented a design pattern such
+                       as the singleton design pattern.</p>
+                    </div>
+                    <div className='d-flex flex-wrap gap-4 subhead-1-large align-items-center mb-1'>
+                      <div className='skill-pill'>Android Studio
+                        <svg width="35" height="35" style={{marginLeft: '5px'}} viewBox="0 0 32 32" id="Camada_1" version="1.1">
+                          <path d="M13.8,4h4.5v2.2h1.2c0.6,0,1,0.4,1,1v4.6l-0.6,0.8l6.2,10.8l0.9,3.9c0.1,0.5-0.5,0.9-0.9,0.5l-2.9-2.7l-2-3.5  C19.6,22.5,17.9,23,16,23s-3.6-0.5-5.1-1.4l-2,3.5L6,27.8c-0.4,0.4-1.1,0-0.9-0.5l0.9-3.9l2.3-4.1c-1.5-1.7-2.3-4-2.3-6.4  c0-0.4,0-0.8,0.1-1.1h3c-0.1,0.4-0.1,0.7-0.1,1.1c0,1.3,0.4,2.5,1,3.6l2.3-3.9l-0.6-0.8V7.2c0-0.6,0.4-1,1-1h1.2V4z M14.4,15.4  L12.4,19c1.1,0.6,2.3,1,3.6,1s2.6-0.4,3.6-1l-2.1-3.6l-0.8,1c-0.4,0.5-1.2,0.5-1.6,0L14.4,15.4z M14.1,11.8L14.1,11.8  c0.4,0.7,1.1,1.1,1.9,1.1c0.8,0,1.6-0.4,1.9-1.1c0.2-0.3,0.3-0.7,0.3-1.1c0-1.2-1-2.2-2.2-2.2s-2.2,1-2.2,2.2  C13.8,11.1,13.9,11.5,14.1,11.8z"/></svg>
+                        </div>
+                      <div className='skill-pill'>Java
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div className='col-md-2 col-3'>
+                    <p className='legal-1-demi font-italic text-dark'><i>SEP 2023 - DEC 2023</i></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='sonic-card mb-4'>
+                <div className='row'>
+                  <div className='col-2'>
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="100%" viewBox="0 0 300.000000 223.000000"
                     preserveAspectRatio="xMidYMid meet">
