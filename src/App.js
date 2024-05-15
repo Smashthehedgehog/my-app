@@ -1,30 +1,7 @@
 import michael_about from './michael_about.jpg';
 import './App.css';
 import './fonts.css';
-import Sidebar from "./components/sidebar/Sidebar";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import {
-  AboutUs,
-  OurAim,
-  OurVision,
-} from "./pages/AboutUs";
-import {
-  Services,
-  ServicesOne,
-  ServicesTwo,
-  ServicesThree,
-} from "./pages/Services";
-import {
-  Events,
-  EventsOne,
-  EventsTwo,
-} from "./pages/Events";
-import Contact from "./pages/ContactUs";
-import Support from "./pages/Support";
+
 
 function App() {
   return (
