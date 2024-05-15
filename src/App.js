@@ -1,8 +1,6 @@
 import michael_about from './michael_about.jpg';
 import './App.css';
 import './fonts.css';
-import Sidebar from './Sidebar';
-import MainContent from './MainContent';
 
 function App() {
   return (
@@ -26,8 +24,6 @@ function App() {
             <div className='App-sidebar-horizontal-line'></div>
 
             <div>
-              <Sidebar />
-              <MainContent />
             </div>
           </div>
           <div className='m-2'></div>
