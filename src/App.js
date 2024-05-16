@@ -1,7 +1,8 @@
 import michael_about from './michael_about.jpg';
 import './App.css';
 import './fonts.css';
-
+import Sidebar from './components/sidebar/Sidebar';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
@@ -24,11 +25,12 @@ function App() {
 
             <div className='App-sidebar-horizontal-line'></div>
 
-            <div>
-              {/* Input Sidebar React Application Here */}
+            
+            {/* Input Sidebar React Application Here */}
+            <Sidebar />
 
 
-            </div>
+            
           </div>
           <div className='m-2'></div>
         </div>
