@@ -27,7 +27,7 @@
 
 .sidebar-content {
     padding-top: .25em;
-    margin-left: 1em;
+    margin-left: 2em;
     max-height: 0;
     transition: max-height 0.5s ease-out;
     overflow: hidden;
