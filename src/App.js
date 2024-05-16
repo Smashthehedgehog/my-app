@@ -23,7 +23,7 @@ function App() {
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 96" width="30px" height="30px"><path d="M0 11.283V8a8 8 0 0 1 8-8h112a8 8 0 0 1 8 8v3.283l-64 40zm66.12 48.11a4.004 4.004 0 0 1-4.24 0L0 20.717V88a8 8 0 0 0 8 8h112a8 8 0 0 0 8-8V20.717z"></path></svg>
             </div>
 
-            <div className='App-sidebar-horizontal-line'></div>
+            <div className='App-sidebar-horizontal-line mb-3 mt-1'></div>
 
             
             {/* Input Sidebar React Application Here */}
@@ -43,7 +43,7 @@ function App() {
             <div className="header-container d-flex flex-column justify-content-center">
               <p className='headline-3-large'> Hello, my name is</p>
               <p className='display-1-large sonic-blue-text'> Michael Chibuikem Ani</p>
-              <p className='headline-3-small'> A mathematician, gamer, musician, gymbro, and your company's next
+              <p className='headline-3-small'> A mathematician, musician, gamer, exercise enthusiast, and your company's next
               influential Software Engineer</p>
             </div>
             <div className='m-4'></div>

@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "childrens": [
+            {
+                "title": "What I Do",
+                "path": "/"
+            },
+            {
+                "title": "Experience",
+                "path": "/about"
+            }
+        ]
+    },
+    {
+        "title": "About Me",
+        "icon": "bi-person-arms-up",
+        "childrens": [
+            {
+                "title": "Autobiography",
+                "path": "/login"
+            },
+            {
+                "title": "Hobbies",
+                "path": "/register"
+            }
+        ]
+    },
+    {
+        "title": "Misc.",
+        "icon": "bi-puzzle-fill",
+        "childrens": [
+            {
+                "title": "Artifacts & Work",
+                "path": "/profile"
+            },
+            {
+                "title": "Writings",
+                "path": "/logout"
+            }
+        ]
+    },
+    {
+        "title": "My Resume",
+        "icon": "bi-file-text-fill",
+        "path": "/support"
+    },
+    {
+        "title": "Contact Me!",
+        "icon": "bi-emoji-laughing-fill",
+        "path": "/report-bug"
+    }
+]
