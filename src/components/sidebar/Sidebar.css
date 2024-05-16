@@ -3,10 +3,6 @@
     height: 100%;
 }
 
-.toggle-btn {
-    cursor: pointer;
-}
-
 
 .sidebar-item.open .sidebar-title .toggle-btn {
     transition: transform .3s;
