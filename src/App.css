@@ -5,67 +5,8 @@
   max-width: 62rem;
 }
 
-/* -------------------------------------------------------------
----------------------- Imported Fonts --------------------------
-----------------------------------------------------------------*/
-@font-face {
-  font-family: 'Quill Sword';
-  src: url('../fonts/quill_sword_fonts/quillsword.ttf') format('truetype'); /* Adjust the path and format as per your font file */
-}
-
-@font-face {
-  font-family: 'Quill Sword Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordital.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Bold';
-  src: url('../fonts/quill_sword_fonts/quillswordbold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Bold Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordboldital.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Bold Condensed';
-  src: url('../fonts/quill_sword_fonts/quillswordcond.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Bold Condensed Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordcondital.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Expand';
-  src: url('../fonts/quill_sword_fonts/quillswordexpand.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Expand Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordexpandital.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Light';
-  src: url('../fonts/quill_sword_fonts/quillswordlight.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Light Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordlightital.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Outline';
-  src: url('../fonts/quill_sword_fonts/quillswordout.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Quill Sword Outline Italic';
-  src: url('../fonts/quill_sword_fonts/quillswordoutital.ttf') format('truetype');
+.no-decoration {
+  text-decoration: none !important;
 }
 
 /* -------------------------------------------------------------
@@ -112,6 +53,17 @@
   width: 90%;
   height: 1px;
   background-color: #505050;
+}
+
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.1s linear;
+}
+
+.social-media-icon:hover {
+  opacity: 50%;
+  transition: opacity 0.2s linear;
 }
 
 

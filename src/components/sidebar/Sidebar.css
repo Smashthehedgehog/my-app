@@ -38,6 +38,11 @@
     transition: max-height 1s ease-in;
 }
 
-.no-decoration {
-    text-decoration: none;
+.sidebar-clickable-item:hover {
+    opacity: 50%;
+    transition: opacity 0.2s linear;
+}
+
+.sidebar-clickable-item {
+    transition: opacity 0.1s linear;
 }

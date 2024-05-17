@@ -21,7 +21,7 @@ export default function SidebarItem ({item}) {
         )
     } else {
         return (
-            <a href={item.path || "#"} className="d-flex sidebar-item no-decoration text-dark">
+            <a href={item.path || "#"} className="d-flex sidebar-item no-decoration text-dark sidebar-clickable-item">
                 <div className="sidebar-title d-flex justify-content-between m-2">
                     <span className='headline-5-medium'>
                         {item.icon && <i className={item.icon}></i> }
