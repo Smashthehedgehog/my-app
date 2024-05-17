@@ -1,31 +1,19 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.053eecf1.css",
-    "main.js": "/my-app/static/js/main.a8b4215c.js",
+    "main.css": "/my-app/static/css/main.412963ab.css",
+    "main.js": "/my-app/static/js/main.bd3584ab.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
     "static/media/michael_about.jpg": "/my-app/static/media/michael_about.2f473807dd8a205e97cd.jpg",
     "static/media/bootstrap-icons.woff?": "/my-app/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/quillswordoutital.ttf": "/my-app/static/media/quillswordoutital.2fa8f156bb1a5e3112cd.ttf",
-    "static/media/quillswordout.ttf": "/my-app/static/media/quillswordout.67acb8caafb04f9c8757.ttf",
     "static/media/Roboto-Regular.ttf": "/my-app/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
     "static/media/bootstrap-icons.woff2?": "/my-app/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "static/media/quillswordboldital.ttf": "/my-app/static/media/quillswordboldital.dc4533ab8a308c3f85c9.ttf",
-    "static/media/quillswordlightital.ttf": "/my-app/static/media/quillswordlightital.df8262acdd227317146c.ttf",
-    "static/media/quillswordbold.ttf": "/my-app/static/media/quillswordbold.b2a0e96c0c4602909ed1.ttf",
-    "static/media/quillswordlight.ttf": "/my-app/static/media/quillswordlight.79da1b951cf0c926b652.ttf",
-    "static/media/quillswordexpandital.ttf": "/my-app/static/media/quillswordexpandital.bc78896088850ea8f898.ttf",
-    "static/media/quillswordital.ttf": "/my-app/static/media/quillswordital.ba0203561ffc3bdbbff5.ttf",
-    "static/media/quillswordcondital.ttf": "/my-app/static/media/quillswordcondital.8df9320c897e473e7d8e.ttf",
-    "static/media/quillswordexpand.ttf": "/my-app/static/media/quillswordexpand.1539f8d66c1122a987ca.ttf",
-    "static/media/quillsword.ttf": "/my-app/static/media/quillsword.39c5b6b9f8f6d9829379.ttf",
-    "static/media/quillswordcond.ttf": "/my-app/static/media/quillswordcond.4ecd9a603105c8e35066.ttf",
     "index.html": "/my-app/index.html",
-    "main.053eecf1.css.map": "/my-app/static/css/main.053eecf1.css.map",
-    "main.a8b4215c.js.map": "/my-app/static/js/main.a8b4215c.js.map",
+    "main.412963ab.css.map": "/my-app/static/css/main.412963ab.css.map",
+    "main.bd3584ab.js.map": "/my-app/static/js/main.bd3584ab.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.053eecf1.css",
-    "static/js/main.a8b4215c.js"
+    "static/css/main.412963ab.css",
+    "static/js/main.bd3584ab.js"
   ]
 }
