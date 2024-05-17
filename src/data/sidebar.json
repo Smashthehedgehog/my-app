@@ -44,11 +44,11 @@
     {
         "title": "My Resume",
         "icon": "bi-file-text-fill",
-        "path": "/support"
+        "path": "https://drive.google.com/file/d/1ZeQXJAKy8bSkZG9hwivSo1mgpeZCmfQE/view?usp=sharing"
     },
     {
         "title": "Contact Me!",
         "icon": "bi-emoji-laughing-fill",
-        "path": "/report-bug"
+        "path": "mailto:mikeani482@gmail.com"
     }
 ]
