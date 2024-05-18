@@ -2,16 +2,7 @@
     {
         "title": "Home",
         "icon": "bi-house-fill",
-        "childrens": [
-            {
-                "title": "What I Do",
-                "path": "/"
-            },
-            {
-                "title": "Experience",
-                "path": "/about"
-            }
-        ]
+        "path": "/"
     },
     {
         "title": "About Me",
@@ -19,11 +10,11 @@
         "childrens": [
             {
                 "title": "Autobiography",
-                "path": "/login"
+                "path": "/Autobiography"
             },
             {
                 "title": "Hobbies",
-                "path": "/register"
+                "path": "/Hobbies"
             }
         ]
     },
@@ -33,11 +24,11 @@
         "childrens": [
             {
                 "title": "Artifacts & Work",
-                "path": "/profile"
+                "path": "/Artifacts_And_Work"
             },
             {
                 "title": "Writings",
-                "path": "/logout"
+                "path": "/Writings"
             }
         ]
     },
