@@ -6,12 +6,22 @@ import 'aos/dist/aos.css';
 import Sidebar from './components/sidebar/Sidebar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+
+
 function App() {
+
+    AOS.init({
+      once: true,
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+
   return (
     <div className="sonic-beige">
       <div className="sidebar-layout d-flex">
         { /* Sidebar */}
-        <div className="App-sidebar d-flex flex-column">
+        <div data-aos="fade-right" data-aos-delay="1500" className="App-sidebar d-flex flex-column">
           
           <div className='m-4'></div>
           <div className='App-sidebar-stuff d-flex flex-column align-items-center'>
@@ -56,15 +66,15 @@ function App() {
           <div className='m-4'></div>
           <div className="App-content-stuff d-flex flex-column">
             <div className="header-container d-flex flex-column justify-content-center">
-              <p className='headline-3-large'> Hello, my name is</p>
-              <p className='display-1-large sonic-blue-text'> Michael Chibuikem Ani</p>
-              <p className='headline-3-small'> A mathematician, musician, gamer, exercise enthusiast, and your company's next
+              <p data-aos="zoom-in" className='headline-3-large'> Hello, my name is</p>
+              <p data-aos="zoom-in" data-aos-delay="400" className='display-1-large sonic-blue-text'> Michael Chibuikem Ani</p>
+              <p data-aos="zoom-in" data-aos-delay="800" className='headline-3-small'> A mathematician, musician, gamer, exercise enthusiast, and your company's next
               influential Software Engineer</p>
             </div>
             <div className='m-4'></div>
-            <p className='display-3-large sonic-blue-text'>What do I do?</p>
-            <div className='topic-line sonic-red'></div>
-            <div className='body-container row g-2 mb-5'>
+            <p data-aos="fade-left" className='display-3-large sonic-blue-text'>What do I do?</p>
+            <div data-aos="fade-left" className='topic-line sonic-red'></div>
+            <div data-aos="fade-left" className='body-container row g-2 mb-5'>
               <div className="col-md-7 col-12">
                 <p className='subhead-1-large text-dark'>I specialize in web development under multiple frameworks,
                 such as React and Bootstrap, requiring me to have extensive understanding of CSS, HTML, and Javascript. But I
@@ -75,9 +85,9 @@ function App() {
                 <img className='content-image' src={michael_about} width={'230rem'} height={'230rem'}></img>
               </div>
             </div>
-            <p className='display-3-large sonic-blue-text'>Projects and Experience</p>
-            <div className='topic-line sonic-red'></div>
-            <div className='d-flex flex-column mb-5'>
+            <p data-aos="fade-left" className='display-3-large sonic-blue-text'>Projects and Experience</p>
+            <div data-aos="fade-left" className='topic-line sonic-red'></div>
+            <div data-aos="fade-left" className='d-flex flex-column mb-5'>
               <div className='sonic-card mb-4'>
                 <div className='row'>
                   <div className='col-2'>
