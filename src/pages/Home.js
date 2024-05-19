@@ -1,5 +1,5 @@
 import React from 'react';
-import michael_about from '../michael_about.jpg';
+import michael_about from '../pictures/michael_about.jpg';
 
 
 function Home() {
