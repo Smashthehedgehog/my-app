@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.412963ab.css",
-    "main.js": "/my-app/static/js/main.bd3584ab.js",
+    "main.css": "/my-app/static/css/main.aafa7201.css",
+    "main.js": "/my-app/static/js/main.76fdd4ac.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/sonic_x.jpg": "/my-app/static/media/sonic_x.11554d1f2c67a488bb6e.jpg",
     "static/media/michael_about.jpg": "/my-app/static/media/michael_about.2f473807dd8a205e97cd.jpg",
+    "static/media/sonic_heroes.jpg": "/my-app/static/media/sonic_heroes.d24c0877dff639d5eb5d.jpg",
     "static/media/bootstrap-icons.woff?": "/my-app/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/nigeria.jpg": "/my-app/static/media/nigeria.72e9ea7e125e796a7257.jpg",
     "static/media/Roboto-Regular.ttf": "/my-app/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
+    "static/media/date_academy.jpg": "/my-app/static/media/date_academy.e8596b5eb71a27c7b47a.jpg",
     "static/media/bootstrap-icons.woff2?": "/my-app/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/my-app/index.html",
-    "main.412963ab.css.map": "/my-app/static/css/main.412963ab.css.map",
-    "main.bd3584ab.js.map": "/my-app/static/js/main.bd3584ab.js.map",
+    "main.aafa7201.css.map": "/my-app/static/css/main.aafa7201.css.map",
+    "main.76fdd4ac.js.map": "/my-app/static/js/main.76fdd4ac.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.412963ab.css",
-    "static/js/main.bd3584ab.js"
+    "static/css/main.aafa7201.css",
+    "static/js/main.76fdd4ac.js"
   ]
 }
