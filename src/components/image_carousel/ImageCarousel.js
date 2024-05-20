@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ImageCarousel.css';
 
-// Use this when using actual pictures in the page js
-const images = ['a.png', 'b.png', 'c.png'];
-
 export default function ImageCarousel({images}) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -15,7 +12,7 @@ export default function ImageCarousel({images}) {
   }, []);
 
   return (
-    <div>
+    <div className='carousel-image-container d-flex align-items-center'>
       {images.map((image, index) => (
         <img key={index} src={image} alt={`slide ${index}`} width={'230rem'} height={'230rem'}
           className={`carousel-image ${index === currentImageIndex ? 'active' : ''}`}
