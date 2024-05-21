@@ -8,9 +8,14 @@ import ib_logo from '../pictures/ib_logo.jpg';
 import tucker_high_school from '../pictures/tucker_high_school.jpg';
 import mike_football from '../pictures/mike_football.jpg';
 import ga_tech_logo from '../pictures/ga_tech_logo.jpg';
+import peeps from '../pictures/peeps.jpg';
+import mike_alpha from '../pictures/mike_alpha.jpg';
+import stepshow from '../pictures/stepshow.jpg';
+import grad from '../pictures/grad.jpg';
 
 const image_set_1 = [nigeria, sonic_heroes, sonic_x, date_academy];
 const image_set_2 = [ib_logo, tucker_high_school, mike_football, ga_tech_logo];
+const image_set_3 = [peeps, mike_alpha, stepshow, grad];
 
 const Autobiography = () => {
     return (
@@ -47,7 +52,22 @@ const Autobiography = () => {
                     <ImageCarousel images = {image_set_2} />
                 </div>
             </div>
-            
+            <p data-aos="fade-left" className='display-3-large sonic-blue-text'>College and Beyond &#40;soon&#41;</p>
+            <div data-aos="fade-left" className='topic-line sonic-red'></div>
+            <div data-aos="fade-left" className='body-container row g-2 mb-5'>
+                <div className="col-md-7 col-12">
+                <p className='subhead-1-large text-dark'>College life was some of the most fun I've ever had. From
+                making new friends to learning about my love for coding, I made a lot of experiences and grew
+                substancially as a person. I even became a member of Alpha Phi Alpha Fraternity, Inc., surronding myself
+                with brothers who desire to put in the same level of work and effort that I do. Due to the massive influx of
+                Computer Science majors at Tech, I wasn't able to switch my major, but I did get a minor and still graduated in
+                four years. Now as my undergraduate life is coming to a close, I hope to continue my work ethic and strive in wherever
+                God leads me next.</p>
+                </div>
+                <div className="col-md-5 col-12 d-flex">
+                    <ImageCarousel images = {image_set_3} />
+                </div>
+            </div>
         </div>
     );
 };
