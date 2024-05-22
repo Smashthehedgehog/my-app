@@ -109,7 +109,7 @@ function Home() {
             </div>
             </div>
 
-            <div className='sonic-card mb-4'>
+            <a className='sonic-card mb-4 no-decoration text-dark' href='https://github.com/Smashthehedgehog/Action_RPG_Project' target='_bkank'>
             <div className='row'>
                 <div className='col-2'>
                 <svg fill="#000000" width="100%" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
@@ -144,9 +144,9 @@ function Home() {
                 <p className='legal-1-demi font-italic text-dark'><i>DEC 2023 - FEB 2024</i></p>
                 </div>
             </div>
-            </div>
+            </a>
 
-            <div className='sonic-card mb-4'>
+            <a className='sonic-card mb-4 no-decoration text-dark' href='https://github.com/MichaelJafojo/DungeonCrawler2' target='_bkank'>
             <div className='row'>
                 <div className='col-2'>
                 <svg fill="#000000" width="100%" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -213,9 +213,9 @@ function Home() {
                 <p className='legal-1-demi font-italic text-dark'><i>SEP 2023 - DEC 2023</i></p>
                 </div>
             </div>
-            </div>
+            </a>
 
-            <div className='sonic-card mb-4'>
+            <a className='sonic-card mb-4 no-decoration text-dark' href='https://www.amdocs.com/careers/home' target='_bkank'>
             <div className='row'>
                 <div className='col-2'>
                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +270,7 @@ function Home() {
                 <p className='legal-1-demi font-italic text-dark'><i>JUN 2023 - AUG 2023</i></p>
                 </div>
             </div>
-            </div>
+            </a>
 
         </div>
     </div>

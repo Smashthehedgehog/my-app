@@ -7,6 +7,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Home from './pages/Home';
 import Autobiography from './pages/Autobiography';
+import Hobbies from './pages/Hobbies';
 
 
 
@@ -69,6 +70,7 @@ function App() {
             <div className='m-4'></div>
             <Routes>
                 <Route path="/Autobiography" element={<Autobiography />} />
+                <Route path="/Hobbies" element={<Hobbies />} />
                 <Route path={"/"} element={<Home />} />
                 <Route path={"/my-app"} element={<Home />} />
             </Routes>
