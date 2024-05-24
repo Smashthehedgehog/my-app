@@ -1,21 +1,10 @@
 import React from "react";
 import CarouselSlide from '../components/carousel_slide/CarouselSlide';
-import nigeria from '../pictures/nigeria.jpg';
-import sonic_heroes from '../pictures/sonic_heroes.jpg';
-import sonic_x from '../pictures/sonic_x.jpg';
-import date_academy from '../pictures/date_academy.jpg';
-import ib_logo from '../pictures/ib_logo.jpg';
-import tucker_high_school from '../pictures/tucker_high_school.jpg';
-import mike_football from '../pictures/mike_football.jpg';
-import ga_tech_logo from '../pictures/ga_tech_logo.jpg';
-import peeps from '../pictures/peeps.jpg';
-import mike_alpha from '../pictures/mike_alpha.jpg';
-import stepshow from '../pictures/stepshow.jpg';
-import grad from '../pictures/grad.jpg';
+import musescore_ego from '../pictures/musescore_ego.jpg';
+import musescore_goodbye from '../pictures/musescore_goodbye.jpg';
+import musescore_liveyourlife from '../pictures/musescore_liveyourlife.jpg';
 
-const image_set_1 = [nigeria, sonic_heroes, sonic_x, date_academy];
-const image_set_2 = [ib_logo, tucker_high_school, mike_football, ga_tech_logo];
-const image_set_3 = [peeps, mike_alpha, stepshow, grad];
+const musescore_image_set = [musescore_ego, musescore_goodbye, musescore_liveyourlife];
 
 const Hobbies = () => {
     return (
@@ -37,7 +26,7 @@ const Hobbies = () => {
             seen people create, and never looked back. For the past 4 years &#40;though on and off&#41; I've been notating sheet music from
             songs in a concert band arrangement. As a matter of fact, on May 2024, I created a gig out of it! Check it out! </p>
             <div className="sonic-card mb-4">
-                <CarouselSlide imageURLs={image_set_2} />
+                <CarouselSlide imageURLs={musescore_image_set} />
             </div>
         </div>
     );

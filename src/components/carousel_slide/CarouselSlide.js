@@ -20,13 +20,24 @@ export default function CarouselSlide({ imageURLs }) {
 
     return (
         <div className="d-flex position-relative">
-            <img src={imageURLs[imageIndex]} className="object-fit-cover w-100 h-100 d-block"/>
+            <div className="w-100 h-100 d-flex overflow-hidden">
+                {imageURLs.map(url => 
+                    <img
+                        key={url}
+                        src={url}
+                        className="object-fit-cover w-100 h-100 carousel-slider-image d-block"
+                        style={{ translate: `${-100 * imageIndex}%`}}/>
+                )}
+            </div>
+            
             <button className="carousel-slider-button d-block position-absolute text-light" style={{ left: 0 }} onClick={showPrevImage}>
                 <i className="button-styles bi-arrow-left-circle-fill" ></i>
             </button>
             <button className="carousel-slider-button d-block position-absolute text-light" style={{ right: 0 }} onClick={showNextImage}>
                 <i className="button-styles bi-arrow-right-circle-fill"></i>
             </button>
+
+
         </div>
 
     );
