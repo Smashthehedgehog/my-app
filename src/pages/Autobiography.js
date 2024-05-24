@@ -17,6 +17,9 @@ const image_set_1 = [nigeria, sonic_heroes, sonic_x, date_academy];
 const image_set_2 = [ib_logo, tucker_high_school, mike_football, ga_tech_logo];
 const image_set_3 = [peeps, mike_alpha, stepshow, grad];
 
+// NOTE: SPECIFY THAT POSITION IS RELATIVE IN PARENT DIV!!
+// D-FLEX DOES NOT AUTOMATICALLY MEAN POSITION RELATIVE
+
 const Autobiography = () => {
     return (
         <div className="App-content-stuff d-flex flex-column">
