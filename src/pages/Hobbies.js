@@ -24,7 +24,7 @@ const Hobbies = () => {
             to no coheret avail. Thus, I took a break from music notation for a while, as come high school, my interests 
             transfered from music to sports. Then in late 2019, I got the urge to go back into Musescore just from sheet music that I've
             seen people create, and never looked back. For the past 4 years &#40;though on and off&#41; I've been notating sheet music from
-            songs in a concert band arrangement. As a matter of fact, on May 2024, I created a gig out of it! Check it out! </p>
+            songs in a concert band arrangement. Here are some examples of what I've done. </p>
             <div className="sonic-card mb-4">
                 <CarouselSlide imageURLs={musescore_image_set} />
             </div>
