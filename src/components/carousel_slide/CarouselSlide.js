@@ -1,6 +1,9 @@
 import { useState } from "react";
 import './CarouselSlide.css';
 
+// https://www.youtube.com/watch?v=Kx8XlKRBZx8
+// come back to this video for expert version
+
 export default function CarouselSlide({ imageURLs }) {
     const [imageIndex, setImageIndex] = useState(0); // sets component to first image
 
@@ -37,7 +40,13 @@ export default function CarouselSlide({ imageURLs }) {
                 <i className="button-styles bi-arrow-right-circle-fill"></i>
             </button>
 
-
+            <div className="image-index-buttons-container d-flex position-absolute">
+                {imageURLs.map((_, index) => (
+                    <button className="image-index-buttons" onClick={() => setImageIndex(index)}>
+                        {index === imageIndex ? <i class="bi-circle-fill"></i> : <i class="bi-circle"></i>}
+                    </button>
+                ))}
+            </div>
         </div>
 
     );

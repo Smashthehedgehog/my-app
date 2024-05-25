@@ -25,3 +25,26 @@
     transition: background-color 0.5s ease-in-out;
 }
 
+.image-index-buttons-container {
+    bottom: 1rem;
+    left: 50%;
+    translate: -50%;
+    gap: .30rem;
+}
+
+.image-index-buttons {
+    all: unset;
+    font-size: small;
+    transition: scale 0.2s ease-in-out;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+.image-index-buttons:hover {
+    scale: 1.3;
+    transition: scale 0.2s ease-in-out;
+}
+
+
+
+
