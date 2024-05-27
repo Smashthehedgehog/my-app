@@ -8,6 +8,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import Home from './pages/Home';
 import Autobiography from './pages/Autobiography';
 import Hobbies from './pages/Hobbies';
+import Artifacts_And_Work from './pages/Artifacts_And_Work';
+import Writings from './pages/Writings';
+
 
 
 
@@ -69,8 +72,10 @@ function App() {
             {/* Main content */}
             <div className='m-4'></div>
             <Routes>
-                <Route path="/Autobiography" element={<Autobiography />} />
-                <Route path="/Hobbies" element={<Hobbies />} />
+                <Route path={"/Autobiography"} element={<Autobiography />} />
+                <Route path={"/Hobbies"} element={<Hobbies />} />
+                <Route path={"/Artifacts_And_Work"} element={<Artifacts_And_Work />} />
+                <Route path={"/Writings"} element={<Writings />} />
                 <Route path={"/"} element={<Home />} />
                 <Route path={"/my-app"} element={<Home />} />
             </Routes>
