@@ -143,9 +143,14 @@
 }
 
 .blog-card {
-    border-radius: 8px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.25);
-    background-color: #593900;
-    height: 12rem;
-    padding: 1rem;
+  border-radius: 8px;
+  background-color: #593900;
+  padding: 1rem;
+  transition: outline 0.1s ease-in-out;
+  outline: 0px solid #000;
+}
+
+.blog-card:hover {
+  outline: 4px solid #000;
+  transition: outline 0.1s ease-in-out;
 }
