@@ -14,7 +14,7 @@ const Writings = () => {
                     this website.
                 </p>
             </div>
-            <div className='d-flex flex-column blog-container gap-4'>
+            <div data-aos="fade-left" className='d-flex flex-column blog-container gap-4'>
               <Link to="/Writings/the-rough-draft-of-the-website" className='blog-card position-relative no-decoration'>
                   <p className='text-light headline-5-medium'>MAY 27, 2024</p>
                   <p className='headline-1-large sonic-beige-text'>The Rough Draft of the Website</p>

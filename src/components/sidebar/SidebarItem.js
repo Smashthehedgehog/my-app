@@ -7,7 +7,7 @@ export default function SidebarItem ({item}) {
 
     if (item.childrens) {
         return (
-            <div className={open ? "sidebar-item open" : "sidebar-item"} onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)} >
+            <div className={open ? "sidebar-item open" : "sidebar-item"} onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)} onFocus={() => setOpen(true)} >
                 <div className="sidebar-title d-flex justify-content-between m-2">
                     <span className='headline-5-medium'>
                         {item.icon && <i className={item.icon}></i> } 
