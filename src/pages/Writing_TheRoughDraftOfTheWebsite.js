@@ -16,7 +16,11 @@ const Writing_TheRoughDraftOfTheWebsite = () => {
             <p className='newspaper-body'>When I graduated, I was trying to do anything to improve my chances of
             getting a job, and one thing I noticed I didn't have was a proper profile. The realization hit me when 
             I went on my co-intern from Amdocs Tom's LinkedIn, as he graduated as well. The first thing I noticed was 
-            that he has a link to <Link to='https://www.tomkastoryano.com/' target='_blank' className='no-decoration'>his own website,</Link> which he created from React.</p>
+            that he has a link to <Link to='https://www.tomkastoryano.com/' target='_blank' className='no-decoration'>his own website,</Link> 
+            which he created from React.</p>
+            <p className='newspaper-body'>Inspired by his creation, I wanted to look at multiple website portfolios that 
+            were created from scratch, avoiding the use of a template so I can hone my Frontend
+            development skills naturally.</p>
             
             
 
