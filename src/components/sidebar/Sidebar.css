@@ -25,6 +25,11 @@
     transform: scaleY(1);
 }
 
+.sidebar-item:focus-visible {
+    outline: 2px solid #000;
+    border-radius: 4px;
+}
+
 .sidebar-content {
     padding-top: .25em;
     margin-left: 2em;

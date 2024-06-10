@@ -10,7 +10,7 @@ import Autobiography from './pages/Autobiography';
 import Hobbies from './pages/Hobbies';
 import Artifacts_And_Work from './pages/Artifacts_And_Work';
 import Writings from './pages/Writings';
-
+import Writing_TheRoughDraftOfTheWebsite from './pages/Writing_TheRoughDraftOfTheWebsite';
 
 
 
@@ -75,6 +75,7 @@ function App() {
                 <Route path={"/Hobbies"} element={<Hobbies />} />
                 <Route path={"/Artifacts_And_Work"} element={<Artifacts_And_Work />} />
                 <Route path={"/Writings"} element={<Writings />} />
+                <Route path={"/Writings/the-rough-draft-of-the-website"} element={<Writing_TheRoughDraftOfTheWebsite />} />
                 <Route path={"/"} element={<Home />} />
                 <Route path={"/my-app"} element={<Home />} />
             </Routes>
