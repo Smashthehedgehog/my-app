@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.e90e8fe4.css",
-    "main.js": "/my-app/static/js/main.82aef296.js",
+    "main.css": "/my-app/static/css/main.3fc97903.css",
+    "main.js": "/my-app/static/js/main.53d8468e.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
     "static/media/stepshow.jpg": "/my-app/static/media/stepshow.93e3a002849ce0fca7b3.jpg",
     "static/media/sonic_x.jpg": "/my-app/static/media/sonic_x.11554d1f2c67a488bb6e.jpg",
@@ -29,14 +29,19 @@
     "static/media/trails_of_cold_steel.jpg": "/my-app/static/media/trails_of_cold_steel.c15a29fb72b217c08fe6.jpg",
     "static/media/date_academy.jpg": "/my-app/static/media/date_academy.e8596b5eb71a27c7b47a.jpg",
     "static/media/bootstrap-icons.woff2?": "/my-app/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/FeFCsc2.ttf": "/my-app/static/media/FeFCsc2.fba6affc55f4152180fb.ttf",
+    "static/media/OldEnglishFive.ttf": "/my-app/static/media/OldEnglishFive.800337792ed8ddca1d99.ttf",
+    "static/media/Italiana-Regular.ttf": "/my-app/static/media/Italiana-Regular.41ce2d6fb8cd3d167ec9.ttf",
     "static/media/mike_football.jpg": "/my-app/static/media/mike_football.4445c76d1a040ad28509.jpg",
+    "static/media/05_27_2024_2.JPG": "/my-app/static/media/05_27_2024_2.f74a46947ba532d05ae7.JPG",
+    "static/media/05_27_2024_1.JPG": "/my-app/static/media/05_27_2024_1.fba33233b202ae58fcdd.JPG",
     "index.html": "/my-app/index.html",
-    "main.e90e8fe4.css.map": "/my-app/static/css/main.e90e8fe4.css.map",
-    "main.82aef296.js.map": "/my-app/static/js/main.82aef296.js.map",
+    "main.3fc97903.css.map": "/my-app/static/css/main.3fc97903.css.map",
+    "main.53d8468e.js.map": "/my-app/static/js/main.53d8468e.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e90e8fe4.css",
-    "static/js/main.82aef296.js"
+    "static/css/main.3fc97903.css",
+    "static/js/main.53d8468e.js"
   ]
 }
