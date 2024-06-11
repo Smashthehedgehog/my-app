@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import pic1 from '../pictures/05_27_2024_1.JPG';
+import pic2 from '../pictures/05_27_2024_2.JPG';
 
 const Writing_TheRoughDraftOfTheWebsite = () => {
   return (
     <div className="App-content-stuff d-flex flex-column">
-        <div className='blog-container d-flex flex-column mb-2 p-4'>
+        <div data-aos="fade-left" className='blog-container d-flex flex-column mb-2 p-4'>
             <div className='d-flex justify-content-center mb-2'>
                 <h1 className='newspaper-title text-center mb-3'>The Rough Draft of the Website</h1>
             </div>
@@ -34,7 +36,26 @@ const Writing_TheRoughDraftOfTheWebsite = () => {
             a bunch of points, such as how to add animations, routers, icons, and more. Of course, that was nothing that 'npm install' couldn't fix.
             However, what gave me the biggest issue was the sidebar. I had trouble figuring out how to construct it. Even in it's current state, I still
             have issues with Accessiblity, especially when on focus:</p>
-            <div></div>
+            <div className='d-flex justify-content-between gap-4 mb-2'>
+                <div className='d-flex flex-column align-items-center'>
+                    <div className='picture-square d-flex align-items-center justify-content-center p-2 mb-1'>
+                        <img src={pic1} className='h-100'/>
+                    </div>
+                    <span className='text-center newspaper-legal w-75'>This is how the focus is supposed to look</span>
+                </div>
+                <div className='d-flex flex-column align-items-center'>
+                    <div className='picture-square d-flex align-items-center justify-content-center p-2 mb-1'>
+                        <img src={pic2} className='h-100'/>
+                    </div>
+                    <span className='text-center newspaper-legal w-75'>Currently, this is how the focus looks on children</span>
+                </div>
+            </div>
+            <p className='newspaper-body'>Other than that sidebar, the website creation went relatively smoothly, as I have
+            recently completed its rough draft. Since this is entirely in frontend, I was able to host it on Github pages for 
+            $Free.99, allowing me to showcase my stuff! Unfortunately, because of my old Github username, my website is currently 
+            displayed as 'Smashthehedgehog' in the URL . . . I plan to fix that very soon.</p>
+            <p className='newspaper-body'>By the time I write my next update on this website, I hope to have fixed all these issues and 
+            made this website more clean &#40;and I'll hopefully be working by then&#41;. I ite, im out.</p>
             
             
 

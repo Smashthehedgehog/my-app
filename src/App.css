@@ -201,3 +201,10 @@
   height: 1px;
   background-color: #BABCC0;
 }
+
+.picture-square {
+  max-height: 18rem;
+  max-width: 18rem;
+  background-color: #505050;
+}
+

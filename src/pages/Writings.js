@@ -21,12 +21,6 @@ const Writings = () => {
                   <p className='headline-5-large text-light'>My thoughts on why I started this website in the first place
                   and my progress on it so far</p>
               </Link>
-              <Link to="/Writings/reminicse-on-my-undergraduate-life" className='blog-card position-relative no-decoration'>
-                  <p className='text-light headline-5-medium'>MAY 25, 2024</p>
-                  <p className='headline-1-large sonic-beige-text'>Reminicse on My Undergraduate Life</p>
-                  <p className='headline-5-large text-light'>A reflection of my experiences and teachings throughout my undergraduate 
-                  season at Georgia Tech</p>
-              </Link>
             </div>
         </div>
     </div>
