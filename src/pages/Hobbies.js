@@ -10,7 +10,7 @@ import videogames_tales from '../pictures/videogames_tales.jpg';
 import videogames_ys from '../pictures/videogames_ys.jpg';
 import videogames_mandl from '../pictures/videogames_mandl.jpg';
 import videogames_zelda from '../pictures/videogames_zelda.jpg';
-import trails_of_cold_steel from '../pictures/trails_of_cold_steel.jpg';
+import tales_of_xillia from '../pictures/tales_of_xillia.jpg';
 
 const musescore_image_set = [musescore_ego, musescore_goodbye, musescore_liveyourlife];
 const videogame_image_set = [videogames_sonic, videogames_xenoblade, videogames_ssbb, videogames_tales, videogames_zelda, videogames_ys, videogames_mandl];
@@ -62,12 +62,11 @@ const Hobbies = () => {
                     </div>
                 </div>
                 <p>If there is a certain type of games I really like, those are story-based video games, or ones with a beginning and an end more than
-                    just sandbox video games. As such, I've been playing through many of those type of games. This is the game that I am currently in the 
-                    process of beating:
+                    just sandbox video games. As such, I've been playing through many of those type of games. This is the game that I'm currently playing:
                 </p>
                 <div className="justify-content-center d-flex">
                     <div className="sonic-card w-75 mb-4">
-                        <img src={trails_of_cold_steel} className="object-fit-cover w-100 h-100 d-block"/>
+                        <img src={tales_of_xillia} className="object-fit-cover w-100 h-100 d-block"/>
                     </div>
                 </div>
             </div>
