@@ -25,7 +25,7 @@ function App() {
 
   return (
     <Router>
-      <div className="sonic-beige">
+      <div className="sonic-beige fit-content">
         <div className="sidebar-layout d-flex">
           { /* Sidebar */}
           <div data-aos="fade-right" data-aos-delay="1500" className="App-sidebar d-flex flex-column">
