@@ -16,7 +16,7 @@ export default function SidebarItem({ item }) {
                 {item.title}
             </span>
             {item.childrens && (
-                <i className={`bi bi-chevron-compact-${open ? 'up' : 'down'} toggle-btn`}></i>
+                <i className={`bi bi-chevron-compact-down toggle-btn`}></i>
             )}
         </div>
     );
