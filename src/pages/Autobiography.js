@@ -61,7 +61,7 @@ const Autobiography = () => {
                 <div className="col-md-7 col-12">
                 <p className='subhead-1-large text-dark'>College life was some of the most fun I've ever had. From
                 making new friends to learning about my love for coding, I made a lot of experiences and grew
-                substancially as a person. I even became a member of Alpha Phi Alpha Fraternity, Inc., surronding myself
+                substantially as a person. I even became a member of Alpha Phi Alpha Fraternity, Inc., surronding myself
                 with brothers who desire to put in the same level of work and effort that I do. Due to the massive influx of
                 Computer Science majors at Tech, I wasn't able to switch my major, but I did get a minor and still graduated in
                 four years. Now as my undergraduate life is coming to a close, I hope to continue my work ethic and strive in wherever
